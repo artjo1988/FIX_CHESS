@@ -1,0 +1,5 @@
+ru\fix\Application.class
+ru\fix\servlets\MovesServlet.class
+ru\fix\models\Information.class
+ru\fix\services\CountService.class
+ru\fix\controllers\MovesControllers.class

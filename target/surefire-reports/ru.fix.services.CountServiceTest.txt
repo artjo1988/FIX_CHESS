@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: ru.fix.services.CountServiceTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 0.268 s <<< FAILURE! - in ru.fix.services.CountServiceTest
+initializationError(ru.fix.services.CountServiceTest)  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.Exception: The class ru.fix.services.CountServiceTest is not public.
+
+initializationError(ru.fix.services.CountServiceTest)  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.Exception: Test class should have exactly one public constructor
+
+initializationError(ru.fix.services.CountServiceTest)  Time elapsed: 0.015 s  <<< ERROR!
+java.lang.Exception: Method countMovesStep1() should be public
+
+initializationError(ru.fix.services.CountServiceTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method countMovesStep2() should be public
+
+initializationError(ru.fix.services.CountServiceTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method countMovesStep3() should be public
+
+initializationError(ru.fix.services.CountServiceTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method countMovesStep4() should be public
+
+initializationError(ru.fix.services.CountServiceTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method boardNotCorrectStep1() should be public
+
+initializationError(ru.fix.services.CountServiceTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method boardNotCorrectStep2() should be public
+
