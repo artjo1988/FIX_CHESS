@@ -12,9 +12,9 @@ import java.io.IOException;
 
 public class MovesServlet extends HttpServlet {
 
-    Information information = new Information();
+    private Information information = new Information();
 
-    CountService countService = new CountService();
+    private CountService countService = new CountService();
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
