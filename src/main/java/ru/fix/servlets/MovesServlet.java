@@ -12,10 +12,12 @@ import java.io.IOException;
 
 public class MovesServlet extends HttpServlet {
 
+    Information information = new Information();
+
+    CountService countService = new CountService();
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        Information information = new Information();
-        CountService countService = new CountService();
         String width = req.getParameter("width");
         String height = req.getParameter("height");
         String start = req.getParameter("start");
